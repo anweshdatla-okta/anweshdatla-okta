@@ -21,9 +21,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      with:
-        repository: okta/okta-core
-        path: .okta/devcli/libexec
+        with:
+          repository: okta/okta-core
+          path: .okta/devcli/libexec
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
