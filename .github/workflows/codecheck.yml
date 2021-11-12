@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: okta/okta-core
-          path: okta-core/.okta/devcli/libexec
+          path: okta-core
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
